@@ -7,6 +7,7 @@ const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
       <p className='f3'>
         {'This Magic Brain will detect faces in your pictures. Giv it a try.'}
       </p>
+      <p> This machine learning API might not detect a low quality image or an image that is not .jpg</p>
       <div className='center'>
         <div className='form center pa4 br3 shadow-5'>
           <input placeholder = "Enter Image Url" className='f4 pa2 w-70 center' type='tex' onChange={onInputChange}/>
